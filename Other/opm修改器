@@ -1,0 +1,43 @@
+Jenkins: xuhaihua     7805c2cdad465e24
+https://tga.oasisgames.cn	mopmen	DEG8ZqP6
+
+
+http://106.75.31.248:7999﻿
+
+
+adb push /Users/oas/Downloads/main.383.com.alpha.mrthen.android.obb /sdcard/Android/obb/com.alpha.mrthen.android
+adb install
+
+oms把release和develop，stage分开了
+release还是远地址： https://oms2.oasmobile.com
+develop&stage地址：http://128.1.41.243:8011
+
+
+http://106.75.31.248:8010/admin/magic?uid= 1688849860264104&p=3&server_id=6&action=user/chapterComplete
+
+https://oms2.oasmobile.com/home/# 123456
+
+英雄全部60级，全部技能1级
+http://106.75.31.248:8010/admin/magic?uid=1688849860264104&p=all&server_id=6&action=hero/cheatLv1
+
+显示全地图 CampaignBase—>SetFarAway()注掉
+关闭音乐音效 CriAtomManager.cs 第48、50行改为0.0f
+
+
+http://106.75.31.248:8010/admin/magic?uid=1688849860264109&p=all,999&server_id=6&action=prop/update
+全道具
+
+英雄满级
+http://106.75.31.248:8010/admin/magic?uid=2251799813685267&p=all&server_id=3&action=hero/cheatLv1
+全装备
+http://106.75.31.248:8010/admin/magic?uid=844424930132047&p=all&server_id=3&action=equip/create
+全英雄
+http://106.75.31.248:8010/admin/magic?uid=2251799813685267&p=all&server_id=3&action=hero/create
+副本全开
+http://106.75.31.248:8010/admin/magic?uid=844424930132046&p=all&server_id=3&action=user/chapterComplete
+全道具
+http://106.75.31.248:8010/admin/magic?uid=2251799813685267&p=all,999&server_id=3&action=prop/update
+查看服务器人数
+http://106.75.31.248:8010/oasis/totalUsers?server_id=3
+加好友
+http://106.75.31.248:8010/admin/magic?uid=EYMQAUSIUFN,EYMQAUSIUES,EYMQAUSIUFF,EYMQAUSIUFL,EYMQAUSIUBB,EYMQAUSIUAV,EYMQAUSIUDB,EYMQAUSIUDE,EYMQAUSIUDK,EYMQAUSIUDX&server_id=3&action=friend/beFriend

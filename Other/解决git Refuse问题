@@ -1,0 +1,9 @@
+Sky:~ oas$ cd Documents/work/github/WorkExcel/
+Sky:WorkExcel oas$ git remote -v
+origin	git@github.com:lengye49/WorkExcel.git (fetch)
+origin	git@github.com:lengye49/WorkExcel.git (push)
+Sky:WorkExcel oas$ git remote rm origin
+Sky:WorkExcel oas$ git remote add origin git@github.com:lengye49/WorkExcel.git
+Sky:WorkExcel oas$ git remote -v
+origin	git@github.com:lengye49/WorkExcel.git (fetch)
+origin	git@github.com:lengye49/WorkExcel.git (push)

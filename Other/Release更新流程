@@ -1,0 +1,20 @@
+Release更新流程：
+1. 提交数据：
+1.1 SourceTree进入release分支，将需要的数据（xlsx）放到对应的文件夹。
+1.2 执行转换脚本文件 ./table 1
+1.3 执行版本脚本，./version
+1.4 添加备注，提交文件
+
+2. Merge仓库数据
+2.1 进入gitlab：http://117.50.22.39
+2.2 进入opm_specs项目-->点击左侧 Merge Requests 标签
+2.3 选择 New merge request
+2.4 Source branch: opm/opm_specs release 
+	--> Target branch: opm-release/opm_specs release 
+	--> Submit Request 
+	--> Merge
+
+3. 发布数据
+3.1 进入后台：http://54.157.63.56:7999
+3.2 进入Base --> opm-release-spec update -->Build with Parameters
+3.3 servers = 1 --> Build
